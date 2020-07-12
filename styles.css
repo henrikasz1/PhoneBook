@@ -15,7 +15,7 @@ button{
 label{
   color: white;
   font-size: 1rem;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 .btn{
   background-color: #70566D;
@@ -88,7 +88,7 @@ input{
   display: block;
   padding: 15px 8px;
   font-size: 0.7rem;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 #buttons button{
   padding: 25px 30px;
@@ -118,7 +118,7 @@ input{
 .btnn{
   border: none;
   color: white;
-  margin: 2rem 25%;;
+  margin: 2rem 45%;;
   width: 7rem;
   height: 3rem;
   font-size: 1rem;
