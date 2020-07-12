@@ -1,7 +1,7 @@
 body{
-  background-color: #A8A8A8;
+  background-color: #8093F1;
   text-align: center;
-  font-family: 'Sans-serif';
+  font-family: monospace;
 }
 p{
   font-size: 5rem;
@@ -12,37 +12,49 @@ button{
   cursor: pointer;
   color: white;
 }
+label{
+  color: white;
+  font-size: 1rem;
+}
 .btn{
-  background-color: #72bcd4;
+  background-color: #70566D;
   border: none;
 }
+.btn:hover{
+  background-color: #42273B;
+}
 .exit{
-  background-color: red;
+  background-color: #42273B;
   color: white;
+  padding: 5px 12px;
+}
+.vv{
+  position: absolute;
+  left: 5px;
+  top: 5px;
 }
 .ex{
-  position: absolute;
-  left: 10px;
-  top: 10px;
+  margin-right: 100%;
   font-size: 20px;
   border: none;
   border-radius: 100%;
+  margin-bottom: 30px;
 }
 tr:nth-child(even){
-  background-color: #ade6d8;
+  background-color: #E5E5E5;
 }
 tr:nth-child(odd){
-  background-color: #c1e1ec;
+  background-color: #F4F4ED;
 }
 td:nth-child(7){
-  background-color: #A8A8A8;
+  background-color: #8093F1;
   padding-right: 0px;
   margin-right: 0px;
   position: relative;
   left: 5px;
 }
 td:nth-child(8){
-  background-color: #A8A8A8;
+  background-color: #8093F1;
   padding-left: 5px;
   margin-right: 0;
   cursor: pointer;
@@ -52,10 +64,12 @@ td:nth-child(8){
   background-color: #8b0000
 }
 tr{
+  font-family: serif;
   font-size: 1.2rem;
 }
 table{
   border: none;
+
 }
 #edit{
   display: none;
@@ -67,10 +81,12 @@ table{
   margin: 10% 20%;
 }
 input{
+  background-color: #F4F4ED;
+  border: none;
   width: 60%;
   display: block;
-  padding: 8px 3px;
-  font-size: 1rem;
+  padding: 15px 8px;
+  font-size: 0.7rem;
 }
 #buttons button{
   padding: 25px 30px;
@@ -80,9 +96,6 @@ input{
 }
 .btnn{
   text-align: center;
-}
-#buttons button:hover{
-  background-color: #add8e6;
 }
 #displayContacts{
   margin-top: 50px;
@@ -97,11 +110,10 @@ input{
 #editContact{
   display: none;
 }
-.init{
-  background-color: #BEBEBE;
+.edit{
+  padding: 5px 5px;
 }
 .btnn{
-  background-color: #72bcd4;
   border: none;
   color: white;
   margin: 2rem 25%;;
@@ -110,9 +122,6 @@ input{
   font-size: 1rem;
   font-weight: bold;
   cursor:pointer;
-}
-.btnn:hover{
-  background-color: #add8e6;
 }
 /* Hides Arrows From Input Number*/
   /* Chrome, Safari, Edge, Opera */
