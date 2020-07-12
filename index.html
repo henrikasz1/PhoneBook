@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PhoneBook</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,7 +16,7 @@
   </div>
   <!-- Forms -->
   <div id="contacts">
-    <button class="exit ex" type="button" name="exit" onclick="exitButton()"> X </button>
+    <button class="exit ex vv" type="button" name="exit" onclick="exitButton()"> X </button>
     <form class="insertContact">
       <label for="name">First Name: </label>
       <input type="text" id="name" placeholder="insert your first name" onfocus="this.placeholder = ''" onblur="this.placeholder='insert your name'" required pattern="[A-Za-z]{3,20}">
@@ -35,13 +36,13 @@
       <label for="address">Address: </label>
       <input type="text" id="address" placeholder="insert your address" onfocus="this.placeholder = ''" onblur="this.placeholder='insert your address'">
       <br>
-      <input class="btnn" id="submit" type="submit" value="submit">
+      <input class="btnn btn" id="submit" type="submit" value="submit">
     </form>
   </div>
 
   <div id="viewContacts">
       <button class="exit ex" type="button" name="exit" onclick="exitButton()"> X </button>
-      <table id="displayContacts">
+      <table id="displayContacts" cellspacing="0" cellpadding="0">
         <tr class="init">
           <th>FirstName</th>
           <th>LastName</th>
@@ -54,7 +55,7 @@
   </div>
 
   <div id="editContact">
-    <button class="exit ex" type="button" name="exit" onclick="exitButton()"> X </button>
+    <button class="exit ex vv" type="button" name="exit" onclick="exitButton()"> X </button>
     <form class="insertContact">
       <label for="name">First Name: </label>
       <input type="text" id="ename" placeholder="insert your first name" onfocus="this.placeholder = ''" onblur="this.placeholder='insert your name'" required pattern="[A-Za-z]{3,20}">
@@ -74,7 +75,7 @@
       <label for="address">Address: </label>
       <input type="text" id="eaddress" placeholder="insert your address" onfocus="this.placeholder = ''" onblur="this.placeholder='insert your address'">
       <br>
-      <button class="btnn" id="editbtn" type="button" name="edit">Edit</button>
+      <button class="btnn btn" id="editbtn" type="button" name="edit">Edit</button>
     </form>
 
   </div>
