@@ -15,6 +15,7 @@ button{
 label{
   color: white;
   font-size: 1rem;
+  margin-left: 15%;
 }
 .btn{
   background-color: #70566D;
@@ -78,7 +79,7 @@ table{
   display: none;
   text-align: left;
   width: 100%;
-  margin: 10% 20%;
+  margin-top: 10%;
 }
 input{
   background-color: #F4F4ED;
@@ -87,6 +88,7 @@ input{
   display: block;
   padding: 15px 8px;
   font-size: 0.7rem;
+  margin-left: 15%;
 }
 #buttons button{
   padding: 25px 30px;
